@@ -1,0 +1,11 @@
+---
+- hosts: all
+  roles:
+  - role: cask_package
+    package_name: atom
+  - role: cask_package
+    package_name: licecap 
+  - role: cask_package
+    package_name: firefox 
+  - role: cask_package
+    package_name: virtualbox
