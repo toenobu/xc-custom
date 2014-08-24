@@ -13,3 +13,5 @@
     package_name: chromium
   - role: brew_package
     package_name: graphicsmagick 
+  - role: pip_package
+    package_name: tmuxp
