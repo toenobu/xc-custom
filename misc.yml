@@ -41,3 +41,27 @@
     package_name: visualvm
   - role: cask_package
     package_name: vagrant 
+  - role: npm_package
+    package_name: typescript 
+  - role: npm_package
+    package_name: browserify 
+  - role: npm_package
+    package_name: tsify 
+  - role: npm_package
+    package_name: tsd@next 
+  - role: brew_package
+    package_name: typesafe-activator 
+  - role: brew_package
+    package_name: heroku-toolbelt 
+  - role: git_package
+    remote_repo: github.com/tagomoris/xbuild
+  - role: brew_package
+    package_name: maven
+  - role: pip_package 
+    package_name: thefuck 
+  - role: brew_package 
+    package_name: redis 
+  - role: npm_package
+    package_name: gulp 
+  - role: brew_package 
+    package_name: go 
